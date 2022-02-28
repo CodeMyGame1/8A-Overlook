@@ -1,0 +1,158 @@
+{
+  "8A": {
+    "homework": {
+      "History": [
+        {
+          "name": "Cold War Project",
+          "due_date": "This Week (2/28/2022 - 3/4/2022)"
+        }
+      ],
+      "Vocab": [
+        {
+          "name": "Vocabulary Project",
+          "due_date": "This Friday (3/4/2022)"
+        }
+      ],
+      "Literature": [
+        {
+          "name": "Twelfth Night Act III Scene iv Part 1 Questions",
+          "due_date": "Tuesday (3/1/2022)"
+        }
+      ],
+      "Grammar": [
+        {
+          "name": "HW p.164 ex.1",
+          "due_date": "Wednesday (3/2/2022)"
+        }
+      ],
+      "Composition": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Science": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Geometry": [
+        {
+          "name": "Savvas Quizzes (if not already done)",
+          "due_date": "Today (2/28/2022)"
+        },
+        {
+          "name": "Performance Assessment 8 Form A (if not completed in class)",
+          "due_date": "10 extra minutes later if possible (otherwise Today, 2/28/2022)"
+        }
+      ]
+    }
+  },
+  "8B": {
+    "homework": {
+      "History": [
+        {
+          "name": "cold war project alsdkfjklasdjf"
+        }
+      ],
+      "Vocab": [
+        {
+          "name": "vocab project",
+          "due_date": "This Friday (3/4/2022)"
+        }
+      ],
+      "Literature": [
+        {
+          "name": "Nothing (for now...)"
+        }
+      ],
+      "Grammar": [
+        {
+          
+        }
+      ],
+      "Composition": [
+        {
+          
+        }
+      ],
+      "Science": [
+        {
+          
+        }
+      ]
+    }
+  },
+  "8C": {
+    "homework": {
+      "History": [
+        {
+          "name": "Cold War Project (Presentations)",
+          "due_date": "Probably this week (2/28/2022 - 3/4/2022)"
+        }
+      ],
+      "Vocab": [
+        {
+          "name": "Sadlier Unit 10-12 Classwork (if not finished already)",
+          "due_date": "This Thursday (11:45PM 3/3/2022)"
+        }
+      ],
+      "Literature": [
+        {
+          "name": "Acting Video",
+          "due_date": "Today or Tomorrow Night (2/28/2022 - 3/1/2022)"
+        }
+      ],
+      "Grammar": [
+        {
+          "name": "Subject Verb Agreement Review Pages (if not already done in class)",
+          "due_date": "Today (2/28/2022)"
+        }
+      ],
+      "Composition": [
+        {
+          "name": "Essay About Online Friends",
+          "due_date": "Friday (3/4/2022)"
+        }
+      ],
+      "Science": [
+        {
+          "name": "Nothing (for now...)"
+        }
+      ]
+    }
+  },
+  "Electives": {
+    "Spanish Day 1": [
+      {
+        "name": ""
+      }
+    ],
+    "PE Day 1": [
+      {
+        "name": "Nothing (for now...)"
+      }
+    ],
+    "Visual Arts": [
+      
+    ],
+    "Orchestra": [
+      {
+        "name": "Nothing (for now...)"
+      }
+    ],
+    "Graphic Arts": [
+      
+    ],
+    "Speech and Debate Day 2": [
+      {
+        "name": "Rem Welsh and State v. Mathas Greeves case",
+        "due_date": "Tomorrow (3/1/2022)"
+      }
+    ],
+    "Computer Science Day 1": [
+      {
+        "name": "Nothing (for now...)"
+      }
+    ]
+  }
+}
