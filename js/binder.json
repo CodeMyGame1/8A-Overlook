@@ -11,19 +11,23 @@
         {
           "name": "Vocabulary Project",
           "due_date": "This Friday (3/4/2022)"
+        },
+        {
+          "name": "Sadlier Homework",
+          "due_date": "Today - Thursday (3/1/2022 - 3/3/2022"
         }
       ],
       "Literature": [
         {
-          "name": "Twelfth Night Act III Scene iv Part 1 Questions",
-          "due_date": "Tuesday (3/1/2022)"
+          "name": "Twelfth Night Act III Scene iv Part 2 Questions",
+          "due_date": " (3/1/2022)"
         }
       ],
       "Grammar": [
         {
           "name": "HW p.164 ex.1",
           "due_date": "Wednesday (3/2/2022)"
-        }
+        },
       ],
       "Composition": [
         {
@@ -32,17 +36,14 @@
       ],
       "Science": [
         {
-          "name": "None (for now...)"
+          "name": "Topic 8 Test",
+          "due_date": "This Friday (3/4/2022)"
         }
       ],
       "Geometry": [
         {
-          "name": "Savvas Quizzes (if not already done)",
-          "due_date": "Today (2/28/2022)"
-        },
-        {
           "name": "Performance Assessment 8 Form A (if not completed in class)",
-          "due_date": "10 extra minutes later if possible (otherwise Today, 2/28/2022)"
+          "due_date": "10 extra minutes later for those who haven't completed it already"
         }
       ]
     }
@@ -51,33 +52,45 @@
     "homework": {
       "History": [
         {
-          "name": "cold war project alsdkfjklasdjf"
+          "name": "Cold War Project Presentations",
+          "due_date": "Next Week-ish (because he's not there on Thursday/Friday)"
         }
       ],
       "Vocab": [
         {
-          "name": "vocab project",
+          "name": "Vocabulary Project",
           "due_date": "This Friday (3/4/2022)"
+        },
+        {
+          "name": "Sadlier Homework",
+          "due_date": "Today - Thursday (3/1/2022 - 3/3/2022)"
         }
       ],
       "Literature": [
         {
-          "name": "Nothing (for now...)"
+          "name": "Meme Project",
+          "due_date": "Next Thursday (3/10/2022)"
+        },
+        {
+          "name": "Twelfth Night Test",
+          "due_date": "not yet confirmed by my sources"
         }
       ],
       "Grammar": [
         {
-          
+          "name": "the thingy on schoolology",
+          "due_date": "Tomorrow (3/2/2022)"
         }
       ],
       "Composition": [
         {
-          
+          "name": "Nothing (for now...)"
         }
       ],
       "Science": [
         {
-          
+          "name": "Topic 8 Test",
+          "due_date": "This Friday (3/4/2022)"
         }
       ]
     }
@@ -100,23 +113,30 @@
         {
           "name": "Acting Video",
           "due_date": "Today or Tomorrow Night (2/28/2022 - 3/1/2022)"
+        },
+        {
+          "name": "Twelfth Night Test",
+          "due_date": "This Thursday (3/3/2022)"
+        }, {
+          "name": "Scene 4 Acts 1 & 2 Annotations",
+          "due_date": "3/4/2022"
         }
       ],
       "Grammar": [
         {
-          "name": "Subject Verb Agreement Review Pages (if not already done in class)",
-          "due_date": "Today (2/28/2022)"
+          "name": "Video Thing",
+          "due_date": "Tonight (3/1/2022)"
         }
       ],
       "Composition": [
         {
           "name": "Essay About Online Friends",
-          "due_date": "Friday (3/4/2022)"
+          "due_date": "Next Tuesday (3/8/2022)"
         }
       ],
       "Science": [
         {
-          "name": "Nothing (for now...)"
+          "name": ""
         }
       ]
     }
@@ -153,6 +173,9 @@
       {
         "name": "Nothing (for now...)"
       }
-    ]
+    ],
+    "Algebra": {
+      
+    }
   }
 }
