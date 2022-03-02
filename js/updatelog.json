@@ -1,23 +1,79 @@
 {
-  "v1.1.6.1": {
-    "date": "2/28/2022",
+  "one-two": {
+    "date": "3/2/2022",
     "desc": [
-      "Stop website from asking for your section on other pages",
-      "Minor patches"
+      "Fixed broken <a href='updatelog.html'>update log</a>",
+      "Added tests and projects",
+      "Update homework",
+      "Other minor patches and fixes"
     ]
   },
-  "v1.1.6": {
+  "one-one-seven": {
+    "date": "3/1/2022",
+    "desc": [
+      "<a href='updatelog.html'>Update log</a> redesign (kinda broken though)",
+      "Update homework",
+      "Minor patches"
+    ],
+    "minor_vers": {
+      "one-one-seven-one": {
+        "date": "3/1/2022",
+        "desc": [
+          "Minor patches"
+        ]
+      }
+    }
+  },
+  "one-one-six": {
     "date": "2/28/2022",
     "desc": [
       "Complete JSON infrastructure for <a href='binder.html'>homework</a>",
       "Update today's <a href='binder.html'>homework</a>"
-    ]
+    ],
+    "minor_vers": {
+      "one-one-six-one": {
+        "date": "2/28/2022",
+        "desc": [
+          "Stop website from asking for your section on other pages",
+          "Minor patches"
+        ]
+      }
+    }
   },
-  "v1.1.5": {
+  "one-one-five": {
     "date": "2/23/2022",
     "desc": [
       "Cleaned up <a href='updatelog.html'>update log</a>",
       "Updated <a href='binder.html>homework</a>"
+    ]
+  },
+  "one-one-four": {
+    "desc": [
+      "<a href='binder.html'>Homework</a> updated",
+      "New icon for <a href='status.html'>Status</a> page",
+      "<a href='about.html'>About Us</a> page small revamp",
+      "New icon for <a href='about.html'>About Us</a> page"
+    ]
+  },
+  "one-one-three": {
+    "desc": [
+      "<a href='homework.html'>Homework</a> updated",
+      "Typos corrected",
+      "Color revamp",
+      "New animated icon",
+      "New <a href='status.html'>status</a> page"
+    ]
+  },
+  "one-one-two": {
+    "desc": [
+      "<a href='binder.html'>Homework</a> updated"
+    ]
+  },
+  "one-one-one": {
+    "desc": [
+      "<a href='forms.html'>Forms</a> and <a href='news.html'>news</a> coming soon",
+      "<a href='binder.html'>Binder</a> glitch fixed",
+      "New <a href='about.html'>About Us</a> page"
     ]
   }
 }

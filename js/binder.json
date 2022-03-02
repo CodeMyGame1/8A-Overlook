@@ -3,6 +3,47 @@
     "homework": {
       "History": [
         {
+          "name": "None (for now...)  "
+        }
+      ],
+      "Vocab": [
+        {
+          "name": "Sadlier Homework",
+          "due_date": "Thursday (3/3/2022"
+        }
+      ],
+      "Literature": [
+        {
+          "name": "Twelfth Night Act III Scene iv Part 2 Questions",
+          "due_date": " (3/1/2022)"
+        }
+      ],
+      "Grammar": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Composition": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Science": [
+        {
+          "name": "Topic 8 Test",
+          "due_date": "This Friday (3/4/2022)"
+        }
+      ],
+      "Geometry": [
+        {
+          "name": "Performance Assessment 8 Form A (if not completed in class)",
+          "due_date": "10 extra minutes later for those who haven't completed it alreadyseee"
+        }
+      ]
+    },
+    "testandproj": {
+      "History": [
+        {
           "name": "Cold War Project",
           "due_date": "This Week (2/28/2022 - 3/4/2022)"
         }
@@ -11,10 +52,6 @@
         {
           "name": "Vocabulary Project",
           "due_date": "This Friday (3/4/2022)"
-        },
-        {
-          "name": "Sadlier Homework",
-          "due_date": "Today - Thursday (3/1/2022 - 3/3/2022"
         }
       ],
       "Literature": [
@@ -43,7 +80,7 @@
       "Geometry": [
         {
           "name": "Performance Assessment 8 Form A (if not completed in class)",
-          "due_date": "10 extra minutes later for those who haven't completed it already"
+          "due_date": "10 extra minutes later for those who haven't completed it alreadyseee"
         }
       ]
     }
@@ -58,12 +95,48 @@
       ],
       "Vocab": [
         {
-          "name": "Vocabulary Project",
-          "due_date": "This Friday (3/4/2022)"
-        },
-        {
           "name": "Sadlier Homework",
           "due_date": "Today - Thursday (3/1/2022 - 3/3/2022)"
+        }
+      ],
+      "Literature": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Grammar": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Composition": [
+        {
+          "name": "Nothing (for now...)"
+        }
+      ],
+      "Science": [
+        {
+          "name": "TURN IN SCIENCE FOSSIL THING ON SCHOOLOGY",
+          "due_date": "Thursday (3/3/2022)"
+        }
+      ],
+      "Algebra": [
+        {
+          "name": "None (for now...)"
+        }
+      ]
+    },
+    "testandproj": {
+      "History": [
+        {
+          "name": "Cold War Project Presentations",
+          "due_date": "Next Week-ish (because he's not there on Thursday/Friday)"
+        }
+      ],
+      "Vocab": [
+        {
+          "name": "Vocabulary Project",
+          "due_date": "This Friday (3/4/2022)"
         }
       ],
       "Literature": [
@@ -99,6 +172,41 @@
     "homework": {
       "History": [
         {
+          "name": "None (for now...)"
+        }
+      ],
+      "Vocab": [
+        {
+          "name": "Sadlier Unit 10-12 Classwork (if not finished already)",
+          "due_date": "This Thursday (11:45PM 3/3/2022)"
+        }
+      ],
+      "Literature": [
+        {
+          "name": "Scene 4 Acts 1 & 2 Annotations",
+          "due_date": "3/4/2022"
+        }
+      ],
+      "Grammar": [
+        {
+          "name": "None (for now...)"
+        }
+      ],
+      "Composition": [
+        {
+          "name": "Essay About Online Friends",
+          "due_date": "Next Tuesday (3/8/2022)"
+        }
+      ],
+      "Science": [
+        {
+          "name": "None (for now...)"
+        }
+      ]
+    },
+    "testandproj": {
+      "History": [
+        {
           "name": "Cold War Project (Presentations)",
           "due_date": "Probably this week (2/28/2022 - 3/4/2022)"
         }
@@ -117,15 +225,11 @@
         {
           "name": "Twelfth Night Test",
           "due_date": "This Thursday (3/3/2022)"
-        }, {
-          "name": "Scene 4 Acts 1 & 2 Annotations",
-          "due_date": "3/4/2022"
         }
       ],
       "Grammar": [
         {
-          "name": "Video Thing",
-          "due_date": "Tonight (3/1/2022)"
+          "name": "None (for now...)"
         }
       ],
       "Composition": [
@@ -136,46 +240,9 @@
       ],
       "Science": [
         {
-          "name": ""
+          "name": "None (for now...)"
         }
       ]
-    }
-  },
-  "Electives": {
-    "Spanish Day 1": [
-      {
-        "name": ""
-      }
-    ],
-    "PE Day 1": [
-      {
-        "name": "Nothing (for now...)"
-      }
-    ],
-    "Visual Arts": [
-      
-    ],
-    "Orchestra": [
-      {
-        "name": "Nothing (for now...)"
-      }
-    ],
-    "Graphic Arts": [
-      
-    ],
-    "Speech and Debate Day 2": [
-      {
-        "name": "Rem Welsh and State v. Mathas Greeves case",
-        "due_date": "Tomorrow (3/1/2022)"
-      }
-    ],
-    "Computer Science Day 1": [
-      {
-        "name": "Nothing (for now...)"
-      }
-    ],
-    "Algebra": {
-      
     }
   }
 }

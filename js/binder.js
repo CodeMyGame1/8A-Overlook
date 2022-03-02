@@ -7,6 +7,8 @@ $(document).ready(async function() {
     section = section.toUpperCase()
   }
 
+  
+
   try {
     let res = await fetch('/js/binder.json');
     res = await res.json();
@@ -48,12 +50,42 @@ $(document).ready(async function() {
       li = $('<li class="fw-bold"></li>');
       badge = $('<span class="badge bg-secondary"></span>');
     }
-  
-    // add this greatness to document so the peoples can see it
-    
+
     var col2 = $('<div class="col"></div>');
-  
-    row.append(col1);
+
+    var testandproj = $('<div class="collapse multi-collapse comfortaa" id="testandproj"></div>');
+
+    card = $('<div class="card card-body"></div>'); // card container for homework
+    
+    header = $('<div class="centering"></div>'); // header
+
+    header.append($(`<h1 class="display-5 fw-bold">${section} Overlook: Binder - Tests and Projects</h1><br><br>`)); // append text to header
+    card.append(header); // append header to card
+    testandproj.append(card);
+    col2.append(testandproj);
+    row.append(col2);
+
+    var ul = $('<ul></ul>');
+    var li = $('<li class="fw-bold"></li>');
+    var badge = $('<span class="badge bg-secondary"></span>');
+    // add support for desc of assignments
+    for (const [subject, tests] of Object.entries(res[section]["testandproj"])) {
+      for (test of tests) { 
+        if (test["name"]) {
+          li.text(`${test["name"]} `);
+          if (test["due_date"]) {
+            badge.text(`Due ${test["due_date"]}`);
+            li.append(badge);
+          }
+          ul.append(li);
+        }
+      }
+      card.append($(`<h2 class="fw-bold">${subject}</h2>`));
+      card.append(ul);
+      ul = $('<ul></ul>');
+      li = $('<li class="fw-bold"></li>');
+      badge = $('<span class="badge bg-secondary"></span>');
+    }
   } catch (e) {
     if (e instanceof SyntaxError) {
       alert("Pranesh must've broken something again... pls tell him the JSON file syntax is probably off");
@@ -61,6 +93,12 @@ $(document).ready(async function() {
       window.location.replace('index.html');
     } else {
       alert("some new foreign error that's not supposed to happen occured");
+      alert(e);
     }
   }
 });
+
+document.addEventListener('visibilitychange', function() {
+  // later, keep prompting for section lol, might not even need this bcuz going to make sessionStorage variable
+  window.location.replace('index.html');
+})
