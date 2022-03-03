@@ -3,7 +3,16 @@
     "date": "3/2/2022",
     "desc": [
       "Made <a href='updatelog.html'>update log</a> work with input (search up version by format x.x.x)"
-    ]
+    ],
+    "minor_vers": {
+      "one-two-one-one": {
+        "date": "3/3/2022",
+        "desc": [
+          "Add homework",
+          "Minor patches"
+        ]
+      }
+    }
   },
   "one-two": {
     "date": "3/2/2022",

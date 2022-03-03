@@ -3,24 +3,25 @@
     "homework": {
       "History": [
         {
-          "name": "None (for now...)  "
+          "name": "Current Events Exercise",
+          "due_date": "Next Friday (3/11/2022)"
         }
       ],
       "Vocab": [
         {
           "name": "Sadlier Homework",
-          "due_date": "Thursday (3/3/2022"
+          "due_date": "Today 3/3/2022"
         }
       ],
       "Literature": [
         {
-          "name": "Twelfth Night Act III Scene iv Part 2 Questions",
-          "due_date": " (3/1/2022)"
+          "name": "None (will be doing Act IV, Scenes i-iii in class next Monday)"
         }
       ],
       "Grammar": [
         {
-          "name": "None (for now...)"
+          "name": "HW p. 166 ex. 2 (doc ending in 2119)",
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Composition": [
@@ -31,13 +32,18 @@
       "Science": [
         {
           "name": "Topic 8 Test",
-          "due_date": "This Friday (3/4/2022)"
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Geometry": [
         {
-          "name": "Performance Assessment 8 Form A (if not completed in class)",
-          "due_date": "10 extra minutes later for those who haven't completed it alreadyseee"
+          "name": "Topic 9.1 #4-31 (all)",
+          "due_date": "Tomorrow (3/4/2022)"
+        },
+        {
+          "name": "Topic Readiness Assessment 9 on Savvas",
+          "due_date": "Next Monday (3/7/2022)",
+          "tooltip": "Ms. Toutem forgot to assign it this Tuesday, so it's due next Monday as of now. (also, thx for reading this tooltip :D)"
         }
       ]
     },
@@ -45,19 +51,18 @@
       "History": [
         {
           "name": "Cold War Project",
-          "due_date": "This Week (2/28/2022 - 3/4/2022)"
+          "due_date": "This Week (2/28/2022 - 3/4/2022), maybe also next week"
         }
       ],
       "Vocab": [
         {
           "name": "Vocabulary Project",
-          "due_date": "This Friday (3/4/2022)"
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Literature": [
         {
-          "name": "Twelfth Night Act III Scene iv Part 2 Questions",
-          "due_date": " (3/1/2022)"
+          "name": "None (for now...)"
         }
       ],
       "Grammar": [
@@ -81,6 +86,14 @@
         {
           "name": "Performance Assessment 8 Form A (if not completed in class)",
           "due_date": "10 extra minutes later for those who haven't completed it alreadyseee"
+        },
+        {
+          "name": "Topic 9.1 - 9.2 Quiz",
+          "due_date": "Next Thursday (3/10/2022)"
+        },
+        {
+          "name": "Topic 9 Assessment",
+          "due_date": "Next Next Friday (3/15/2022)"
         }
       ]
     }
@@ -90,7 +103,7 @@
       "History": [
         {
           "name": "Cold War Project Presentations",
-          "due_date": "Next Week-ish (because he's not there on Thursday/Friday)"
+          "due_date": "Next Week-ish (because he's not at school today and tomorrow)"
         }
       ],
       "Vocab": [
@@ -106,7 +119,8 @@
       ],
       "Grammar": [
         {
-          "name": "None (for now...)"
+          "name": "HW p. 166 ex. 2 (doc ending in 2119)",
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Composition": [
@@ -116,13 +130,7 @@
       ],
       "Science": [
         {
-          "name": "TURN IN SCIENCE FOSSIL THING ON SCHOOLOGY",
-          "due_date": "Thursday (3/3/2022)"
-        }
-      ],
-      "Algebra": [
-        {
-          "name": "None (for now...)"
+          "name": "Nothing (for now...)"
         }
       ]
     },
@@ -136,7 +144,7 @@
       "Vocab": [
         {
           "name": "Vocabulary Project",
-          "due_date": "This Friday (3/4/2022)"
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Literature": [
@@ -151,8 +159,8 @@
       ],
       "Grammar": [
         {
-          "name": "the thingy on schoolology",
-          "due_date": "Tomorrow (3/2/2022)"
+          "name": "HW p. 166 ex. 2 (doc ending in 2119)",
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Composition": [
@@ -172,7 +180,8 @@
     "homework": {
       "History": [
         {
-          "name": "None (for now...)"
+          "name": "Current Events Exercise",
+          "due_date": "Next Friday (3/11/2022)"
         }
       ],
       "Vocab": [
@@ -184,18 +193,13 @@
       "Literature": [
         {
           "name": "Scene 4 Acts 1 & 2 Annotations",
-          "due_date": "3/4/2022"
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Grammar": [
         {
-          "name": "None (for now...)"
-        }
-      ],
-      "Composition": [
-        {
-          "name": "Essay About Online Friends",
-          "due_date": "Next Tuesday (3/8/2022)"
+          "name": "HW p. 166 ex. 2 (doc ending in 2119)",
+          "due_date": "Tomorrow (3/4/2022)"
         }
       ],
       "Science": [
@@ -213,18 +217,12 @@
       ],
       "Vocab": [
         {
-          "name": "Sadlier Unit 10-12 Classwork (if not finished already)",
-          "due_date": "This Thursday (11:45PM 3/3/2022)"
+          "name": "None (for now...)"
         }
       ],
       "Literature": [
         {
-          "name": "Acting Video",
-          "due_date": "Today or Tomorrow Night (2/28/2022 - 3/1/2022)"
-        },
-        {
-          "name": "Twelfth Night Test",
-          "due_date": "This Thursday (3/3/2022)"
+          "name": "None (for now...)"
         }
       ],
       "Grammar": [

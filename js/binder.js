@@ -48,6 +48,12 @@ $(document).ready(async function() {
             badge.text(`Due ${assignment["due_date"]}`);
             li.append(badge);
           }
+          if (assignment["tooltip"]) {
+            // data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top"
+            li.prop('data-bs-toggle', 'tooltip');
+            li.prop('data-bs-placement', 'top');
+            li.prop('title', assignment["tooltip"]);
+          }
           ul.append(li);
         }
       }
@@ -95,6 +101,8 @@ $(document).ready(async function() {
       li = $('<li class="fw-bold"></li>');
       badge = $('<span class="badge bg-secondary"></span>');
     }
+
+    
   } catch (e) {
     if (e instanceof SyntaxError) {
       alert("Pranesh must've broken something again... pls tell him the JSON file syntax is probably off");
