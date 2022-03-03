@@ -1,13 +1,20 @@
-$(document).ready(async function() {
+function getSection() {
   var allowed_sections = ["8A", "8B", "8C"];
-  var section = prompt("What is your section? (8A, 8B, or 8C)");
-  section = section.toUpperCase();
-  while (!allowed_sections.includes(section)) {
+  var section;
+  section = prompt("What is your section? (8A, 8B, or 8C)");
+  while (section == null || !allowed_sections.includes(section.toUpperCase())) {
     section = prompt("What is your section? (8A, 8B, or 8C)");
-    section = section.toUpperCase()
   }
 
+  section = section.toUpperCase();
   
+  window.localStorage.setItem('8g-overlook-section', section);
+  
+  return section;
+}
+
+$(document).ready(async function() {
+  var section = (window.localStorage.getItem('8g-overlook-section') || getSection());
 
   try {
     let res = await fetch('/js/binder.json');
@@ -32,7 +39,7 @@ $(document).ready(async function() {
     var li = $('<li class="fw-bold"></li>');
     var badge = $('<span class="badge bg-secondary"></span>');
     // add support for desc of assignments
-    console.log(res);
+
     for (const [subject, assignments] of Object.entries(res[section]["homework"])) {
       for (assignment of assignments) { 
         if (assignment["name"]) {
@@ -50,6 +57,8 @@ $(document).ready(async function() {
       li = $('<li class="fw-bold"></li>');
       badge = $('<span class="badge bg-secondary"></span>');
     }
+
+    row.append($('<div class="vr"></div>'));
 
     var col2 = $('<div class="col"></div>');
 
@@ -97,8 +106,3 @@ $(document).ready(async function() {
     }
   }
 });
-
-document.addEventListener('visibilitychange', function() {
-  // later, keep prompting for section lol, might not even need this bcuz going to make sessionStorage variable
-  window.location.replace('index.html');
-})

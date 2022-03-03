@@ -1,4 +1,10 @@
 {
+  "one-two-one": {
+    "date": "3/2/2022",
+    "desc": [
+      "Made <a href='updatelog.html'>update log</a> work with input (search up version by format x.x.x)"
+    ]
+  },
   "one-two": {
     "date": "3/2/2022",
     "desc": [
