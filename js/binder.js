@@ -101,8 +101,6 @@ $(document).ready(async function() {
       li = $('<li class="fw-bold"></li>');
       badge = $('<span class="badge bg-secondary"></span>');
     }
-
-    
   } catch (e) {
     if (e instanceof SyntaxError) {
       alert("Pranesh must've broken something again... pls tell him the JSON file syntax is probably off");

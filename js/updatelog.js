@@ -26,8 +26,12 @@ async function displayMatchingVersions(startables) {
   var list_groups = "";
   var minor_list = "";
   var ul = "";
+
+  var updated = false;
   for (const [ver, info] of Object.entries(res)) {
-    if (ver.split("-").reduce((num_list, word) => { num_list.push(numberWord("returnNum", word)); return num_list }, []).join(".").startsWith(startables)) {
+    if (ver.split("-").reduce((num_list, word) => { num_list.push(numberWord("returnNum", word)); return num_list }, []).join(".").includes(startables)) {
+      
+      
       item = $('<div class="accordion-item"></div>');
       version = $(`<h2 class="accordion-header" id="${ver}-target"></h2>`);
       button = $(`<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${ver}" aria-expanded="false" aria-controls="${ver}"></button>`);
