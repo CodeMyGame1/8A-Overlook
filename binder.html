@@ -22,18 +22,38 @@
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#testandproj" aria-expanded="false" aria-controls="testandproj">
         Tests (and Projects)
       </button>
+      <button type="button" class="btn btn-primary" id="electiveModalBtn" data-bs-toggle="modal" data-bs-target="#electiveModal">Electives</button>
     </p>
+    
 
     <hr class="my-4">
 
-    <!--Is added to in js/binder.js; is homework/tests and projects-->
+    <!--Is added to in js/binder.js; (with homework, tests, and projects-->
     <div class="row">
       
     </div>
 
     <hr class="my-4">
     
-
+    <div class="modal fade" id="electiveModal" tabindex="-1" role="dialog" aria-labelledby="electiveModalBtn" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"> Electives</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="accordion" id="insertElectives" style="padding: 0% 25% 0% 25%">
+              
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!--Insert templates-->
     <script src="templates/templating.js"></script>
     <!--Will soon be used to update homework-->

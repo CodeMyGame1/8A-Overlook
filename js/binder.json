@@ -242,5 +242,17 @@
         }
       ]
     }
+  },
+  "electives": {
+    "bob": [
+      {
+        "name": "JABOB",
+        "due_date": "LOLOL"
+      }, 
+      {
+        "name": "LOL",
+        "due_date": "AEEEEE"
+      }
+    ]
   }
 }

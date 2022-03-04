@@ -101,6 +101,47 @@ $(document).ready(async function() {
       li = $('<li class="fw-bold"></li>');
       badge = $('<span class="badge bg-secondary"></span>');
     }
+
+    var electives = $('#insertElectives'); // the container for this madness that we will push to eventually
+    var item = "";
+    var version = "";
+    var button = "";
+    var desc = "";
+    var accord_body = "";
+    var list_groups = "";
+    var li = ""
+  
+    for (const [elective, stuff] of Object.entries(res["electives"])) {
+      item = $('<div class="accordion-item"></div>');
+      header = $(`<h2 class="accordion-header" id="${elective}-target"></h2>`);
+      button = $(`<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${elective}" aria-expanded="false" aria-controls="${elective}"></button>`);
+      desc = $(`<div id="${elective}" class="accordion-collapse collapse" aria-labelledby="#${elective}-target" data-bs-parent="#update_log"></div>`);
+      accord_body = $('<div id="accordion-body"></div>');
+      list_groups = $('<div id="list-groups"></div>');
+
+      button.text(elective);
+          
+      header.append(button);
+      item.append(header);
+        
+      for (let thingy of stuff) {
+        if (thingy["name"]) {
+          li = $('<li class="list-group-item list-group-item-action"></li>');
+          li.text(`${thingy["name"]} `)
+          if (thingy["due_date"]) {
+            var badge = $('<span class="badge bg-secondary"></span>');
+            badge.text(`${thingy["due_date"]}`)
+            li.append(badge);
+          }
+          list_groups.append(li);
+        }
+      }
+      
+      accord_body.append(list_groups);
+      desc.append(accord_body);
+      item.append(desc);
+      electives.append(item);
+    }
   } catch (e) {
     if (e instanceof SyntaxError) {
       alert("Pranesh must've broken something again... pls tell him the JSON file syntax is probably off");
@@ -108,7 +149,14 @@ $(document).ready(async function() {
       window.location.replace('index.html');
     } else {
       alert("some new foreign error that's not supposed to happen occured");
-      alert(e);
+      alert(`(tell Pranesh about this) ${e}`);
     }
+  }
+
+  try {
+    $('#electiveModal').modal();
+  } catch (e) {
+    alert("some new foreign error that's not supposed to happen occured");
+      alert(`(tell Pranesh about this) ${e}`);
   }
 });

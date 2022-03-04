@@ -30,7 +30,7 @@ async function displayMatchingVersions(startables) {
   var updated = false;
   for (const [ver, info] of Object.entries(res)) {
     if (ver.split("-").reduce((num_list, word) => { num_list.push(numberWord("returnNum", word)); return num_list }, []).join(".").includes(startables)) {
-      
+      updated = true;
       
       item = $('<div class="accordion-item"></div>');
       version = $(`<h2 class="accordion-header" id="${ver}-target"></h2>`);
@@ -79,6 +79,15 @@ async function displayMatchingVersions(startables) {
       update.append(item);
     }
   }
+
+  if (!updated) {
+    item = $('<div class="accordion-item"></div>');
+    version = $(`<h2 class="accordion-header"></h2>`);
+    button = $(`<button class="accordion-button collapsed" type="button">No version found for your query</button>`);
+    version.append(button);
+    item.append(version);
+    update.append(item);
+  }
 }
 
 $(document).ready(async function() {
@@ -96,7 +105,18 @@ $(document).ready(async function() {
       window.location.replace('index.html');
     } else {
       alert("some new foreign error that's not supposed to happen occured");
-      alert(e);
+      alert(`(tell Pranesh about this) ${e}`);
+    }
+  }
+  try {
+    $('#versionSelector').tooltip();
+  } catch (e) {
+    if (e instanceof TypeError) {
+      console.log('failed to add tooltip to #versionSelector')
+      // tooltip is non-essential and plus it breaks half the time, maybe because i was spam-reloading in dev but who knows *shrug*
+    } else {
+      alert("some new foreign error that's not supposed to happen occured");
+      alert(`(tell Pranesh about this) ${e}`);
     }
   }
 });

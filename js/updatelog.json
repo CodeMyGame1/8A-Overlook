@@ -1,4 +1,12 @@
 {
+  "one-two-two": {
+    "date": "3/4/2022",
+    "desc": [
+      "Add change section button",
+      "Add elective homework",
+      "Other minor fixes"
+    ]
+  },
   "one-two-one": {
     "date": "3/2/2022",
     "desc": [
@@ -8,7 +16,7 @@
       "one-two-one-one": {
         "date": "3/3/2022",
         "desc": [
-          "Add homework",
+          "Add <a href='binder.html'>homework</a>",
           "Minor patches"
         ]
       }
@@ -18,8 +26,8 @@
     "date": "3/2/2022",
     "desc": [
       "Fixed broken <a href='updatelog.html'>update log</a>",
-      "Added tests and projects",
-      "Update homework",
+      "Added tests and projects to <a href='binder.html'>binder</a>",
+      "Update <a href='binder.html'>homework</a>",
       "Other minor patches and fixes"
     ]
   },
@@ -27,7 +35,7 @@
     "date": "3/1/2022",
     "desc": [
       "<a href='updatelog.html'>Update log</a> redesign (kinda broken though)",
-      "Update homework",
+      "Update <a href='binder.html'>homework</a>",
       "Minor patches"
     ],
     "minor_vers": {
